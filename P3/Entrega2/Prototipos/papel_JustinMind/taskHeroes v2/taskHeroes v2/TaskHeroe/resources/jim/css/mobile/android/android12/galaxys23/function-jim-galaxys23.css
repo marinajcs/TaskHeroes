@@ -1,0 +1,12 @@
+/* start Galaxy S23 css values*/
+body.androidgalaxys23 #jim-mobile { position:relative; top:0px; left:0px; width:397.5px; height:812px; margin:auto; }
+body.androidgalaxys23 #jim-case { background-image: url("../../../../../images/mobile/android/android12/galaxys23@2x.png"); height:812px; width:397.5px; background-size:100% auto; z-index:100; /*must be over keyboards and comment bubbles*/ position:absolute; pointer-events:none; }
+body.androidgalaxys23 #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.androidgalaxys23 #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.androidgalaxys23 #jim-mobile.landscape { height:397.5px; width:812px; }
+body.androidgalaxys23 #jim-case.portrait { transform:rotate(0deg); transform-origin:auto; }
+body.androidgalaxys23 #jim-case.landscape { top:27px; left:33.5px; transform:rotate(-90deg); transform-origin:50% 25% 0; }
+body.androidgalaxys23 #jim-container.portrait { position: absolute; top: 17px; left: 17.5px; width: 360px; height: 780px; }
+body.androidgalaxys23 #jim-container.landscape { position: absolute; top: 21.5px; left: 16px; width: 780px; height: 360px; }
